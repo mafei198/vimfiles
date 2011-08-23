@@ -421,3 +421,18 @@ let g:user_zen_settings = {
   \  },
  \}
 
+
+imap <c-a> <esc>:wa<CR>
+map <c-a> :wa<CR>
+imap <c-c> <esc>:q<CR>
+map <c-c> :q<CR>
+map <c-s> :vs<CR>
+map <c-n> :sp<CR>
+
+set noswapfile
+
+let g:CommandTMaxDepth=30
+let g:CommandTMaxFiles=20000
+
+let g:Align_xstrlen = 3
+let ScreenShot = {'Icon':0, 'Credits':0, 'force_background':'#FFFFFF'}
